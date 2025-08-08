@@ -3,7 +3,7 @@ layout: default
 title: CASM
 ---
 
-# Coherent All Sky Moniter
+# Coherent All Sky Monitor
 
 _FRBs?_
 ## About Us
