@@ -1,3 +1,20 @@
+// Dark mode toggle logic
+function setDarkMode(enabled) {
+    document.body.classList.toggle('dark-mode', enabled);
+    localStorage.setItem('darkMode', enabled ? '1' : '0');
+    document.getElementById('darkModeToggle').textContent = enabled ? '☀️' : '🌙';
+}
+
+function initDarkMode() {
+    const saved = localStorage.getItem('darkMode');
+    const enabled = saved === '1';
+    setDarkMode(enabled);
+    document.getElementById('darkModeToggle').addEventListener('click', () => {
+        setDarkMode(!document.body.classList.contains('dark-mode'));
+    });
+}
+
+window.addEventListener('DOMContentLoaded', initDarkMode);
 class RepositoryManager {
     constructor() {
         this.repositories = [];

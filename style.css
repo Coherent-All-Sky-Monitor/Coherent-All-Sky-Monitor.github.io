@@ -1,3 +1,58 @@
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #181a1b;
+    color: #e0e0e0;
+}
+
+body.dark-mode header {
+    background: linear-gradient(135deg, #232526 0%, #414345 100%);
+    color: #fff;
+}
+
+body.dark-mode .intro,
+body.dark-mode .repositories {
+    background: #232526;
+    color: #e0e0e0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+body.dark-mode th {
+    background-color: #232526;
+    color: #e0e0e0;
+}
+
+body.dark-mode tr:hover {
+    background-color: #232526;
+}
+
+body.dark-mode .repo-links a {
+    background: #333;
+    color: #e0e0e0;
+}
+body.dark-mode .repo-links a:hover {
+    background: #667eea;
+    color: #fff;
+}
+
+body.dark-mode .language-tag {
+    background: #263238;
+    color: #90caf9;
+}
+
+body.dark-mode .stars {
+    color: #ffd600;
+}
+
+body.dark-mode .error {
+    color: #ff6b81;
+    background: #2d1a1a;
+    border: 1px solid #b71c1c;
+}
+
+body.dark-mode footer {
+    background: #181a1b;
+    color: #e0e0e0;
+}
 * {
     margin: 0;
     padding: 0;
