@@ -65,7 +65,7 @@ jobs:
             }));
             
             console.log(\`Processed \${processedRepos.length} repositories\`);
-            fs.writeFileSync('repos.json', JSON.stringify(processedRepos, null, 2));
+            fs.writeFileSync('_data/repos.json', JSON.stringify(processedRepos, null, 2));
             
           } catch (error) {
             console.error('Error processing repositories:', error);
@@ -76,7 +76,7 @@ jobs:
       - name: Check for changes
         id: verify-changed-files
         run: |
-          if git diff --quiet HEAD repos.json; then
+          if git diff --quiet HEAD _data/repos.json; then
             echo "changed=false" >> $GITHUB_OUTPUT
           else
             echo "changed=true" >> $GITHUB_OUTPUT
@@ -88,7 +88,7 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           
-          git add repos.json
+          git add _data/repos.json
           git commit -m "🤖 Auto-update repository list - $(date +'%Y-%m-%d %H:%M:%S')"
           
           # Push with retry logic
@@ -109,10 +109,10 @@ jobs:
           
       - name: Output summary
         run: |
-          if [ -f repos.json ]; then
-            REPO_COUNT=$(node -e "console.log(JSON.parse(require('fs').readFileSync('repos.json', 'utf8')).length)")
+          if [ -f _data/repos.json ]; then
+            REPO_COUNT=$(node -e "console.log(JSON.parse(require('fs').readFileSync('_data/repos.json', 'utf8')).length)")
             echo "✅ Successfully processed $REPO_COUNT repositories"
           else
-            echo "❌ repos.json was not created"
+            echo "❌ _data/repos.json was not created"
             exit 1
           fi

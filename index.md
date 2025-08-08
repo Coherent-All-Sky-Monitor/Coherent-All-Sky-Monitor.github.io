@@ -6,9 +6,6 @@ title: CASM
 # Coherent All Sky Moniter
 
 _FRBs?_
-
-<button id="darkModeToggle" aria-label="Toggle dark mode" style="position:absolute;top:1rem;right:1rem;z-index:10;">🌙</button>
-
 ## About Us
 
 FRBs
@@ -34,7 +31,7 @@ FRBs
       <td>{{ repo.description }}</td>
       <td>{{ repo.language }}</td>
       <td>{{ repo.stars }}</td>
-      <td>{% if repo.pages_url %}<a href="{{ repo.pages_url }}">Pages</a>{% endif %}</td>
+      <td>{% if repo.pages_url %}<a href="{{ repo.pages_url }}">Docs</a>{% endif %}</td>
       <td>{{ repo.updated_at | slice: 0, 10 }}</td>
     </tr>
     {% endfor %}
