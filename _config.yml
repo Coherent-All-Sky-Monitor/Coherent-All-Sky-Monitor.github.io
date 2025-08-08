@@ -1,0 +1,15 @@
+title: Your Organization
+description: Welcome to our open source projects
+url: "https://casm.github.io"
+baseurl: ""
+
+markdown: kramdown
+theme: primer
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+exclude:
+  - node_modules/
+  - .github/
