@@ -61,6 +61,177 @@ body.dark-mode footer {
 
 body {
     font-family: 'National Park', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #fff;
+    color: #24292f;
+    line-height: 1.5;
+}
+
+main.container {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 32px 16px;
+}
+
+header {
+    background: #24292f;
+    color: #fff;
+    padding: 32px 0 16px 0;
+    text-align: center;
+    border-bottom: 1px solid #e1e4e8;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.intro, .repositories {
+    background: #fff;
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(27,31,35,0.04);
+    padding: 24px;
+    margin-bottom: 24px;
+}
+
+.controls {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.controls input, .controls select, .controls button {
+    padding: 0.5rem;
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    font-size: 1rem;
+    background: #fafbfc;
+}
+
+.controls button {
+    background: #2ea44f;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.controls button:hover {
+    background: #22863a;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(27,31,35,0.04);
+}
+
+th, td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #e1e4e8;
+}
+
+th {
+    background-color: #f6f8fa;
+    font-weight: 600;
+    color: #24292f;
+}
+
+tr:hover {
+    background-color: #f6f8fa;
+}
+
+.repo-links {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.repo-links a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.25rem 0.5rem;
+    background: #e1e4e8;
+    color: #24292f;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    transition: all 0.2s;
+}
+
+.repo-links a:hover {
+    background: #2ea44f;
+    color: #fff;
+}
+
+.language-tag {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    background: #f6f8fa;
+    color: #0366d6;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.stars {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    color: #ffd33d;
+}
+
+.loading, .error {
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.1rem;
+}
+
+.error {
+    color: #d73a49;
+    background: #f6f8fa;
+    border: 1px solid #e1e4e8;
+    border-radius: 4px;
+}
+
+footer {
+    background: #24292f;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    border-top: 1px solid #e1e4e8;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+    .controls {
+        flex-direction: column;
+    }
+    .controls input {
+        min-width: auto;
+    }
+    .repo-links {
+        flex-direction: column;
+    }
+}
+}
+
+body {
+    font-family: 'National Park', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     line-height: 1.6;
     color: #333;
     background-color: #f8f9fa;

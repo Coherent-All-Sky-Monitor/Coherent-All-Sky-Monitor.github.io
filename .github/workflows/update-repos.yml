@@ -7,48 +7,112 @@ on:
   push:
     branches: [ main ]
 
+permissions:
+  contents: write  # Explicitly grant write permissions
+
 jobs:
   update-repos:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
         
       - name: Fetch Organization Repositories
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ORG_NAME: ${{ github.repository_owner }}
         run: |
+          echo "Fetching repositories for organization: $ORG_NAME"
+          
           # Fetch all repositories from the organization
           curl -H "Authorization: token $GITHUB_TOKEN" \
                -H "Accept: application/vnd.github.v3+json" \
                "https://api.github.com/orgs/$ORG_NAME/repos?per_page=100&sort=updated" > all_repos.json
           
+          # Check if the API call was successful
+          if [ ! -s all_repos.json ]; then
+            echo "Error: Failed to fetch repositories"
+            exit 1
+          fi
+          
           # Process repositories and check for GitHub Pages
           node -e "
           const fs = require('fs');
-          const repos = JSON.parse(fs.readFileSync('all_repos.json', 'utf8'));
           
-          const processedRepos = repos.map(repo => ({
-            name: repo.name,
-            description: repo.description || 'No description available',
-            html_url: repo.html_url,
-            homepage: repo.homepage,
-            has_pages: repo.has_pages,
-            pages_url: repo.has_pages ? \`https://${{ github.repository_owner }}.github.io/\${repo.name}\` : null,
-            updated_at: repo.updated_at,
-            language: repo.language,
-            stars: repo.stargazers_count,
-            forks: repo.forks_count
-          }));
-          
-          fs.writeFileSync('repos.json', JSON.stringify(processedRepos, null, 2));
+          try {
+            const repos = JSON.parse(fs.readFileSync('all_repos.json', 'utf8'));
+            
+            if (!Array.isArray(repos)) {
+              console.error('API response is not an array:', repos);
+              process.exit(1);
+            }
+            
+            const processedRepos = repos.map(repo => ({
+              name: repo.name,
+              description: repo.description || 'No description available',
+              html_url: repo.html_url,
+              homepage: repo.homepage,
+              has_pages: repo.has_pages,
+              pages_url: repo.has_pages ? \`https://$ORG_NAME.github.io/\${repo.name}\` : null,
+              updated_at: repo.updated_at,
+              language: repo.language,
+              stars: repo.stargazers_count || 0,
+              forks: repo.forks_count || 0,
+              topics: repo.topics || []
+            }));
+            
+            console.log(\`Processed \${processedRepos.length} repositories\`);
+            fs.writeFileSync('repos.json', JSON.stringify(processedRepos, null, 2));
+            
+          } catch (error) {
+            console.error('Error processing repositories:', error);
+            process.exit(1);
+          }
           "
           
-      - name: Commit and push if changed
+      - name: Check for changes
+        id: verify-changed-files
         run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          if git diff --quiet HEAD repos.json; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+          
+      - name: Commit and push if changed
+        if: steps.verify-changed-files.outputs.changed == 'true'
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          
           git add repos.json
-          git diff --staged --quiet || git commit -m "Update repository list"
-          git push
+          git commit -m "🤖 Auto-update repository list - $(date +'%Y-%m-%d %H:%M:%S')"
+          
+          # Push with retry logic
+          for i in {1..3}; do
+            if git push origin main; then
+              echo "Successfully pushed on attempt $i"
+              break
+            else
+              echo "Push attempt $i failed, retrying in 5 seconds..."
+              sleep 5
+            fi
+            
+            if [ $i -eq 3 ]; then
+              echo "Failed to push after 3 attempts"
+              exit 1
+            fi
+          done
+          
+      - name: Output summary
+        run: |
+          if [ -f repos.json ]; then
+            REPO_COUNT=$(node -e "console.log(JSON.parse(require('fs').readFileSync('repos.json', 'utf8')).length)")
+            echo "✅ Successfully processed $REPO_COUNT repositories"
+          else
+            echo "❌ repos.json was not created"
+            exit 1
+          fi
