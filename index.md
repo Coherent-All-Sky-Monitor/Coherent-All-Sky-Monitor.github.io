@@ -5,7 +5,7 @@ title: CASM
 
 # Coherent All Sky Moniter
 
-_Discover our open source projects and contributions_
+_FRBs?_
 
 <button id="darkModeToggle" aria-label="Toggle dark mode" style="position:absolute;top:1rem;right:1rem;z-index:10;">🌙</button>
 
