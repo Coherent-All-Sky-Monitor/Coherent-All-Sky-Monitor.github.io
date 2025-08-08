@@ -18,7 +18,6 @@ FRBs
       <th>Repository</th>
       <th>Description</th>
       <th>Language</th>
-      <th>Stars</th>
       <th>Pages</th>
       <th>Last Updated</th>
     </tr>
