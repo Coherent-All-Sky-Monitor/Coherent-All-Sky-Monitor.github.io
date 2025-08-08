@@ -1,13 +1,13 @@
 [
   {
-    "name": "casm.github.io",
+    "name": "Coherent-All-Sky-Monitor.github.io",
     "description": "CASM Website",
-    "html_url": "https://github.com/Coherent-All-Sky-Monitor/casm.github.io",
+    "html_url": "https://github.com/Coherent-All-Sky-Monitor/Coherent-All-Sky-Monitor.github.io",
     "homepage": null,
     "has_pages": true,
-    "pages_url": "https://Coherent-All-Sky-Monitor.github.io/casm.github.io",
-    "updated_at": "2025-08-08T03:03:01Z",
-    "language": "CSS",
+    "pages_url": "https://Coherent-All-Sky-Monitor.github.io/Coherent-All-Sky-Monitor.github.io",
+    "updated_at": "2025-08-08T03:11:48Z",
+    "language": "JavaScript",
     "stars": 0,
     "forks": 0,
     "topics": []
