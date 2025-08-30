@@ -1,12 +1,25 @@
 [
   {
+    "name": "labtools",
+    "description": "Scripts and Software to control and record measurements from Lab instruments and conduct common experiments.",
+    "html_url": "https://github.com/Coherent-All-Sky-Monitor/labtools",
+    "homepage": null,
+    "has_pages": false,
+    "pages_url": null,
+    "updated_at": "2025-08-30T00:47:50Z",
+    "language": "Python",
+    "stars": 0,
+    "forks": 0,
+    "topics": []
+  },
+  {
     "name": "Coherent-All-Sky-Monitor.github.io",
     "description": "CASM Website",
     "html_url": "https://github.com/Coherent-All-Sky-Monitor/Coherent-All-Sky-Monitor.github.io",
     "homepage": "https://coherent-all-sky-monitor.github.io/",
     "has_pages": true,
     "pages_url": "https://Coherent-All-Sky-Monitor.github.io/Coherent-All-Sky-Monitor.github.io",
-    "updated_at": "2025-08-28T06:10:20Z",
+    "updated_at": "2025-08-29T06:10:06Z",
     "language": null,
     "stars": 0,
     "forks": 0,
