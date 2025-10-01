@@ -1,12 +1,25 @@
 [
   {
+    "name": "casm_analog_power_controller",
+    "description": "Software to control the relay switches to control the power supplied to the Analog chain",
+    "html_url": "https://github.com/Coherent-All-Sky-Monitor/casm_analog_power_controller",
+    "homepage": null,
+    "has_pages": false,
+    "pages_url": null,
+    "updated_at": "2025-09-30T14:41:48Z",
+    "language": null,
+    "stars": 0,
+    "forks": 0,
+    "topics": []
+  },
+  {
     "name": "Coherent-All-Sky-Monitor.github.io",
     "description": "CASM Website",
     "html_url": "https://github.com/Coherent-All-Sky-Monitor/Coherent-All-Sky-Monitor.github.io",
     "homepage": "https://coherent-all-sky-monitor.github.io/",
     "has_pages": true,
     "pages_url": "https://Coherent-All-Sky-Monitor.github.io/Coherent-All-Sky-Monitor.github.io",
-    "updated_at": "2025-09-29T06:11:29Z",
+    "updated_at": "2025-09-30T06:11:05Z",
     "language": null,
     "stars": 0,
     "forks": 0,
