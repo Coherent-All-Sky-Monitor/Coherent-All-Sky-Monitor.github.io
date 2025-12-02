@@ -1,26 +1,26 @@
 [
   {
-    "name": "CAsMan",
-    "description": "CASM Assembly Manager",
-    "html_url": "https://github.com/Coherent-All-Sky-Monitor/CAsMan",
-    "homepage": "https://coherent-all-sky-monitor.github.io/CAsMan/",
-    "has_pages": true,
-    "pages_url": "https://Coherent-All-Sky-Monitor.github.io/CAsMan",
-    "updated_at": "2025-12-02T02:41:37Z",
-    "language": "Python",
-    "stars": 0,
-    "forks": 0,
-    "topics": []
-  },
-  {
     "name": "snap_control",
     "description": "No description available",
     "html_url": "https://github.com/Coherent-All-Sky-Monitor/snap_control",
     "homepage": null,
     "has_pages": false,
     "pages_url": null,
-    "updated_at": "2025-12-02T02:34:04Z",
+    "updated_at": "2025-12-02T13:23:27Z",
     "language": "Python",
+    "stars": 0,
+    "forks": 0,
+    "topics": []
+  },
+  {
+    "name": "casm_bf",
+    "description": "A mini-repo containing the CASM beamformer as two source files (CasmBeamformer.{hpp,cu}), intended for including in the larger CASM pipeline.",
+    "html_url": "https://github.com/Coherent-All-Sky-Monitor/casm_bf",
+    "homepage": null,
+    "has_pages": false,
+    "pages_url": null,
+    "updated_at": "2025-12-02T13:19:25Z",
+    "language": null,
     "stars": 0,
     "forks": 0,
     "topics": []
@@ -32,8 +32,21 @@
     "homepage": "https://coherent-all-sky-monitor.github.io/",
     "has_pages": true,
     "pages_url": "https://Coherent-All-Sky-Monitor.github.io/Coherent-All-Sky-Monitor.github.io",
-    "updated_at": "2025-12-01T06:12:14Z",
+    "updated_at": "2025-12-02T06:11:28Z",
     "language": null,
+    "stars": 0,
+    "forks": 0,
+    "topics": []
+  },
+  {
+    "name": "CAsMan",
+    "description": "CASM Assembly Manager",
+    "html_url": "https://github.com/Coherent-All-Sky-Monitor/CAsMan",
+    "homepage": "https://coherent-all-sky-monitor.github.io/CAsMan/",
+    "has_pages": true,
+    "pages_url": "https://Coherent-All-Sky-Monitor.github.io/CAsMan",
+    "updated_at": "2025-12-02T02:41:37Z",
+    "language": "Python",
     "stars": 0,
     "forks": 0,
     "topics": []
