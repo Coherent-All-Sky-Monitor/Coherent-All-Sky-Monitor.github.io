@@ -1,26 +1,39 @@
 [
   {
+    "name": "CAsMan",
+    "description": "CASM Assembly Manager",
+    "html_url": "https://github.com/Coherent-All-Sky-Monitor/CAsMan",
+    "homepage": "https://coherent-all-sky-monitor.github.io/CAsMan/",
+    "has_pages": true,
+    "pages_url": "https://Coherent-All-Sky-Monitor.github.io/CAsMan",
+    "updated_at": "2025-12-02T02:41:37Z",
+    "language": "Python",
+    "stars": 0,
+    "forks": 0,
+    "topics": []
+  },
+  {
+    "name": "snap_control",
+    "description": "No description available",
+    "html_url": "https://github.com/Coherent-All-Sky-Monitor/snap_control",
+    "homepage": null,
+    "has_pages": false,
+    "pages_url": null,
+    "updated_at": "2025-12-02T02:34:04Z",
+    "language": "Python",
+    "stars": 0,
+    "forks": 0,
+    "topics": []
+  },
+  {
     "name": "Coherent-All-Sky-Monitor.github.io",
     "description": "CASM Website",
     "html_url": "https://github.com/Coherent-All-Sky-Monitor/Coherent-All-Sky-Monitor.github.io",
     "homepage": "https://coherent-all-sky-monitor.github.io/",
     "has_pages": true,
     "pages_url": "https://Coherent-All-Sky-Monitor.github.io/Coherent-All-Sky-Monitor.github.io",
-    "updated_at": "2025-11-30T06:10:29Z",
+    "updated_at": "2025-12-01T06:12:14Z",
     "language": null,
-    "stars": 0,
-    "forks": 0,
-    "topics": []
-  },
-  {
-    "name": "CAsMan",
-    "description": "CASM Assembly Manager",
-    "html_url": "https://github.com/Coherent-All-Sky-Monitor/CAsMan",
-    "homepage": null,
-    "has_pages": true,
-    "pages_url": "https://Coherent-All-Sky-Monitor.github.io/CAsMan",
-    "updated_at": "2025-11-25T20:52:10Z",
-    "language": "Python",
     "stars": 0,
     "forks": 0,
     "topics": []
@@ -49,19 +62,6 @@
     "language": "C",
     "stars": 0,
     "forks": 1,
-    "topics": []
-  },
-  {
-    "name": "snap_control",
-    "description": "No description available",
-    "html_url": "https://github.com/Coherent-All-Sky-Monitor/snap_control",
-    "homepage": null,
-    "has_pages": false,
-    "pages_url": null,
-    "updated_at": "2025-11-14T20:36:10Z",
-    "language": "Python",
-    "stars": 0,
-    "forks": 0,
     "topics": []
   },
   {
