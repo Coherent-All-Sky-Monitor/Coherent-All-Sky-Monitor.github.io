@@ -1,5 +1,31 @@
 [
   {
+    "name": "casm_analog_power_controller",
+    "description": "Software to control the relay switches to control the power supplied to the Analog chain",
+    "html_url": "https://github.com/Coherent-All-Sky-Monitor/casm_analog_power_controller",
+    "homepage": null,
+    "has_pages": true,
+    "pages_url": "https://Coherent-All-Sky-Monitor.github.io/casm_analog_power_controller",
+    "updated_at": "2025-12-03T01:13:18Z",
+    "language": "Python",
+    "stars": 0,
+    "forks": 0,
+    "topics": []
+  },
+  {
+    "name": "Coherent-All-Sky-Monitor.github.io",
+    "description": "CASM Website",
+    "html_url": "https://github.com/Coherent-All-Sky-Monitor/Coherent-All-Sky-Monitor.github.io",
+    "homepage": "https://casm-telescope.com",
+    "has_pages": true,
+    "pages_url": "https://Coherent-All-Sky-Monitor.github.io/Coherent-All-Sky-Monitor.github.io",
+    "updated_at": "2025-12-02T20:11:18Z",
+    "language": null,
+    "stars": 0,
+    "forks": 0,
+    "topics": []
+  },
+  {
     "name": "snap_control",
     "description": "No description available",
     "html_url": "https://github.com/Coherent-All-Sky-Monitor/snap_control",
@@ -26,19 +52,6 @@
     "topics": []
   },
   {
-    "name": "Coherent-All-Sky-Monitor.github.io",
-    "description": "CASM Website",
-    "html_url": "https://github.com/Coherent-All-Sky-Monitor/Coherent-All-Sky-Monitor.github.io",
-    "homepage": "https://coherent-all-sky-monitor.github.io/",
-    "has_pages": true,
-    "pages_url": "https://Coherent-All-Sky-Monitor.github.io/Coherent-All-Sky-Monitor.github.io",
-    "updated_at": "2025-12-02T06:11:28Z",
-    "language": null,
-    "stars": 0,
-    "forks": 0,
-    "topics": []
-  },
-  {
     "name": "CAsMan",
     "description": "CASM Assembly Manager",
     "html_url": "https://github.com/Coherent-All-Sky-Monitor/CAsMan",
@@ -46,19 +59,6 @@
     "has_pages": true,
     "pages_url": "https://Coherent-All-Sky-Monitor.github.io/CAsMan",
     "updated_at": "2025-12-02T02:41:37Z",
-    "language": "Python",
-    "stars": 0,
-    "forks": 0,
-    "topics": []
-  },
-  {
-    "name": "casm_analog_power_controller",
-    "description": "Software to control the relay switches to control the power supplied to the Analog chain",
-    "html_url": "https://github.com/Coherent-All-Sky-Monitor/casm_analog_power_controller",
-    "homepage": null,
-    "has_pages": false,
-    "pages_url": null,
-    "updated_at": "2025-11-20T17:49:53Z",
     "language": "Python",
     "stars": 0,
     "forks": 0,
