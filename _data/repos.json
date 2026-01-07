@@ -1,26 +1,26 @@
 [
   {
-    "name": "Coherent-All-Sky-Monitor.github.io",
-    "description": "CASM Website",
-    "html_url": "https://github.com/Coherent-All-Sky-Monitor/Coherent-All-Sky-Monitor.github.io",
-    "homepage": "https://casm-telescope.com",
-    "has_pages": true,
-    "pages_url": "https://Coherent-All-Sky-Monitor.github.io/Coherent-All-Sky-Monitor.github.io",
-    "updated_at": "2026-01-05T06:14:58Z",
-    "language": null,
-    "stars": 0,
-    "forks": 0,
-    "topics": []
-  },
-  {
     "name": "CAsMan",
     "description": "CASM Assembly Manager",
     "html_url": "https://github.com/Coherent-All-Sky-Monitor/CAsMan",
     "homepage": "https://coherent-all-sky-monitor.github.io/CAsMan/",
     "has_pages": true,
     "pages_url": "https://Coherent-All-Sky-Monitor.github.io/CAsMan",
-    "updated_at": "2025-12-18T09:07:43Z",
+    "updated_at": "2026-01-06T11:22:15Z",
     "language": "Python",
+    "stars": 0,
+    "forks": 0,
+    "topics": []
+  },
+  {
+    "name": "Coherent-All-Sky-Monitor.github.io",
+    "description": "CASM Website",
+    "html_url": "https://github.com/Coherent-All-Sky-Monitor/Coherent-All-Sky-Monitor.github.io",
+    "homepage": "https://casm-telescope.com",
+    "has_pages": true,
+    "pages_url": "https://Coherent-All-Sky-Monitor.github.io/Coherent-All-Sky-Monitor.github.io",
+    "updated_at": "2026-01-06T06:12:23Z",
+    "language": null,
     "stars": 0,
     "forks": 0,
     "topics": []
