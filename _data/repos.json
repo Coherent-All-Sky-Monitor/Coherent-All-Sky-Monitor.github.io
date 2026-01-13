@@ -1,12 +1,25 @@
 [
   {
+    "name": "vis-sim",
+    "description": "No description available",
+    "html_url": "https://github.com/Coherent-All-Sky-Monitor/vis-sim",
+    "homepage": null,
+    "has_pages": false,
+    "pages_url": null,
+    "updated_at": "2026-01-12T23:43:49Z",
+    "language": "Jupyter Notebook",
+    "stars": 0,
+    "forks": 0,
+    "topics": []
+  },
+  {
     "name": "Coherent-All-Sky-Monitor.github.io",
     "description": "CASM Website",
     "html_url": "https://github.com/Coherent-All-Sky-Monitor/Coherent-All-Sky-Monitor.github.io",
     "homepage": "https://casm-telescope.com",
     "has_pages": true,
     "pages_url": "https://Coherent-All-Sky-Monitor.github.io/Coherent-All-Sky-Monitor.github.io",
-    "updated_at": "2026-01-11T06:11:08Z",
+    "updated_at": "2026-01-12T06:13:45Z",
     "language": null,
     "stars": 0,
     "forks": 0,
@@ -60,19 +73,6 @@
     "pages_url": "https://Coherent-All-Sky-Monitor.github.io/casm_analog_power_controller",
     "updated_at": "2025-12-17T23:14:32Z",
     "language": "Python",
-    "stars": 0,
-    "forks": 0,
-    "topics": []
-  },
-  {
-    "name": "vis-sim",
-    "description": "No description available",
-    "html_url": "https://github.com/Coherent-All-Sky-Monitor/vis-sim",
-    "homepage": null,
-    "has_pages": false,
-    "pages_url": null,
-    "updated_at": "2025-12-17T07:16:09Z",
-    "language": "Jupyter Notebook",
     "stars": 0,
     "forks": 0,
     "topics": []
