@@ -1,12 +1,25 @@
 [
   {
+    "name": "casm_analysis_tools",
+    "description": "Offline casm analysis tools including fringestopping, RFI cleaning, imaging, etc.",
+    "html_url": "https://github.com/Coherent-All-Sky-Monitor/casm_analysis_tools",
+    "homepage": null,
+    "has_pages": false,
+    "pages_url": null,
+    "updated_at": "2026-01-18T20:17:42Z",
+    "language": "Jupyter Notebook",
+    "stars": 0,
+    "forks": 0,
+    "topics": []
+  },
+  {
     "name": "Coherent-All-Sky-Monitor.github.io",
     "description": "CASM Website",
     "html_url": "https://github.com/Coherent-All-Sky-Monitor/Coherent-All-Sky-Monitor.github.io",
     "homepage": "https://casm-telescope.com",
     "has_pages": true,
     "pages_url": "https://Coherent-All-Sky-Monitor.github.io/Coherent-All-Sky-Monitor.github.io",
-    "updated_at": "2026-01-17T06:10:39Z",
+    "updated_at": "2026-01-18T06:10:47Z",
     "language": null,
     "stars": 0,
     "forks": 0,
