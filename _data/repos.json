@@ -1,12 +1,25 @@
 [
   {
+    "name": "snap_control",
+    "description": "No description available",
+    "html_url": "https://github.com/Coherent-All-Sky-Monitor/snap_control",
+    "homepage": null,
+    "has_pages": false,
+    "pages_url": null,
+    "updated_at": "2026-02-05T15:14:43Z",
+    "language": "Python",
+    "stars": 0,
+    "forks": 0,
+    "topics": []
+  },
+  {
     "name": "Coherent-All-Sky-Monitor.github.io",
     "description": "CASM Website",
     "html_url": "https://github.com/Coherent-All-Sky-Monitor/Coherent-All-Sky-Monitor.github.io",
     "homepage": "https://casm-telescope.com",
     "has_pages": true,
     "pages_url": "https://Coherent-All-Sky-Monitor.github.io/Coherent-All-Sky-Monitor.github.io",
-    "updated_at": "2026-02-04T06:23:35Z",
+    "updated_at": "2026-02-05T06:27:10Z",
     "language": null,
     "stars": 0,
     "forks": 0,
@@ -34,19 +47,6 @@
     "pages_url": null,
     "updated_at": "2026-01-28T23:57:52Z",
     "language": "Cuda",
-    "stars": 0,
-    "forks": 0,
-    "topics": []
-  },
-  {
-    "name": "snap_control",
-    "description": "No description available",
-    "html_url": "https://github.com/Coherent-All-Sky-Monitor/snap_control",
-    "homepage": null,
-    "has_pages": false,
-    "pages_url": null,
-    "updated_at": "2026-01-27T00:29:17Z",
-    "language": "Python",
     "stars": 0,
     "forks": 0,
     "topics": []
