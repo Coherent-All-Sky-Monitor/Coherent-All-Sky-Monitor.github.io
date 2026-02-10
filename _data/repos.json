@@ -1,12 +1,25 @@
 [
   {
+    "name": "sky_rfi",
+    "description": "service to displace satellites and airplanes above the horizon of the observatory",
+    "html_url": "https://github.com/Coherent-All-Sky-Monitor/sky_rfi",
+    "homepage": "https://casm-telescope.com/sky_rfi/",
+    "has_pages": true,
+    "pages_url": "https://Coherent-All-Sky-Monitor.github.io/sky_rfi",
+    "updated_at": "2026-02-09T23:44:17Z",
+    "language": "Python",
+    "stars": 0,
+    "forks": 0,
+    "topics": []
+  },
+  {
     "name": "Coherent-All-Sky-Monitor.github.io",
     "description": "CASM Website",
     "html_url": "https://github.com/Coherent-All-Sky-Monitor/Coherent-All-Sky-Monitor.github.io",
     "homepage": "https://casm-telescope.com",
     "has_pages": true,
     "pages_url": "https://Coherent-All-Sky-Monitor.github.io/Coherent-All-Sky-Monitor.github.io",
-    "updated_at": "2026-02-08T06:23:49Z",
+    "updated_at": "2026-02-09T06:32:28Z",
     "language": null,
     "stars": 0,
     "forks": 0,
@@ -86,19 +99,6 @@
     "pages_url": null,
     "updated_at": "2026-01-25T17:59:58Z",
     "language": "Jupyter Notebook",
-    "stars": 0,
-    "forks": 0,
-    "topics": []
-  },
-  {
-    "name": "sky_rfi",
-    "description": "service to displace satellites and airplanes above the horizon of the observatory",
-    "html_url": "https://github.com/Coherent-All-Sky-Monitor/sky_rfi",
-    "homepage": "https://casm-telescope.com/sky_rfi/",
-    "has_pages": true,
-    "pages_url": "https://Coherent-All-Sky-Monitor.github.io/sky_rfi",
-    "updated_at": "2026-01-19T22:19:02Z",
-    "language": "Python",
     "stars": 0,
     "forks": 0,
     "topics": []
