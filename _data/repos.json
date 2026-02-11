@@ -1,5 +1,31 @@
 [
   {
+    "name": "snap_control",
+    "description": "No description available",
+    "html_url": "https://github.com/Coherent-All-Sky-Monitor/snap_control",
+    "homepage": null,
+    "has_pages": false,
+    "pages_url": null,
+    "updated_at": "2026-02-11T02:30:33Z",
+    "language": "Python",
+    "stars": 0,
+    "forks": 0,
+    "topics": []
+  },
+  {
+    "name": "Coherent-All-Sky-Monitor.github.io",
+    "description": "CASM Website",
+    "html_url": "https://github.com/Coherent-All-Sky-Monitor/Coherent-All-Sky-Monitor.github.io",
+    "homepage": "https://casm-telescope.com",
+    "has_pages": true,
+    "pages_url": "https://Coherent-All-Sky-Monitor.github.io/Coherent-All-Sky-Monitor.github.io",
+    "updated_at": "2026-02-10T06:32:57Z",
+    "language": null,
+    "stars": 0,
+    "forks": 0,
+    "topics": []
+  },
+  {
     "name": "sky_rfi",
     "description": "service to displace satellites and airplanes above the horizon of the observatory",
     "html_url": "https://github.com/Coherent-All-Sky-Monitor/sky_rfi",
@@ -13,19 +39,6 @@
     "topics": []
   },
   {
-    "name": "Coherent-All-Sky-Monitor.github.io",
-    "description": "CASM Website",
-    "html_url": "https://github.com/Coherent-All-Sky-Monitor/Coherent-All-Sky-Monitor.github.io",
-    "homepage": "https://casm-telescope.com",
-    "has_pages": true,
-    "pages_url": "https://Coherent-All-Sky-Monitor.github.io/Coherent-All-Sky-Monitor.github.io",
-    "updated_at": "2026-02-09T06:32:28Z",
-    "language": null,
-    "stars": 0,
-    "forks": 0,
-    "topics": []
-  },
-  {
     "name": "CAsMan",
     "description": "CASM Assembly Manager",
     "html_url": "https://github.com/Coherent-All-Sky-Monitor/CAsMan",
@@ -33,19 +46,6 @@
     "has_pages": true,
     "pages_url": "https://Coherent-All-Sky-Monitor.github.io/CAsMan",
     "updated_at": "2026-02-07T01:23:16Z",
-    "language": "Python",
-    "stars": 0,
-    "forks": 0,
-    "topics": []
-  },
-  {
-    "name": "snap_control",
-    "description": "No description available",
-    "html_url": "https://github.com/Coherent-All-Sky-Monitor/snap_control",
-    "homepage": null,
-    "has_pages": false,
-    "pages_url": null,
-    "updated_at": "2026-02-05T15:14:43Z",
     "language": "Python",
     "stars": 0,
     "forks": 0,
