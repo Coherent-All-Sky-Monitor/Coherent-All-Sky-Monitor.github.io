@@ -1,5 +1,18 @@
 [
   {
+    "name": "Coherent-All-Sky-Monitor.github.io",
+    "description": "CASM Website",
+    "html_url": "https://github.com/Coherent-All-Sky-Monitor/Coherent-All-Sky-Monitor.github.io",
+    "homepage": "https://casm-telescope.com",
+    "has_pages": true,
+    "pages_url": "https://Coherent-All-Sky-Monitor.github.io/Coherent-All-Sky-Monitor.github.io",
+    "updated_at": "2026-02-20T06:26:02Z",
+    "language": null,
+    "stars": 0,
+    "forks": 0,
+    "topics": []
+  },
+  {
     "name": "bf_weights_generator",
     "description": "No description available",
     "html_url": "https://github.com/Coherent-All-Sky-Monitor/bf_weights_generator",
@@ -8,19 +21,6 @@
     "pages_url": null,
     "updated_at": "2026-02-19T21:56:12Z",
     "language": "Python",
-    "stars": 0,
-    "forks": 0,
-    "topics": []
-  },
-  {
-    "name": "Coherent-All-Sky-Monitor.github.io",
-    "description": "CASM Website",
-    "html_url": "https://github.com/Coherent-All-Sky-Monitor/Coherent-All-Sky-Monitor.github.io",
-    "homepage": "https://casm-telescope.com",
-    "has_pages": true,
-    "pages_url": "https://Coherent-All-Sky-Monitor.github.io/Coherent-All-Sky-Monitor.github.io",
-    "updated_at": "2026-02-19T06:29:33Z",
-    "language": null,
     "stars": 0,
     "forks": 0,
     "topics": []
