@@ -1,12 +1,25 @@
 [
   {
+    "name": "casm-wiki",
+    "description": "No description available",
+    "html_url": "https://github.com/Coherent-All-Sky-Monitor/casm-wiki",
+    "homepage": null,
+    "has_pages": false,
+    "pages_url": null,
+    "updated_at": "2026-08-04T06:13:22Z",
+    "language": "Python",
+    "stars": 0,
+    "forks": 0,
+    "topics": []
+  },
+  {
     "name": "Coherent-All-Sky-Monitor.github.io",
     "description": "CASM Website",
     "html_url": "https://github.com/Coherent-All-Sky-Monitor/Coherent-All-Sky-Monitor.github.io",
     "homepage": "https://casm-telescope.com",
     "has_pages": true,
     "pages_url": "https://Coherent-All-Sky-Monitor.github.io/Coherent-All-Sky-Monitor.github.io",
-    "updated_at": "2026-08-02T07:00:06Z",
+    "updated_at": "2026-08-03T07:18:56Z",
     "language": null,
     "stars": 0,
     "forks": 0,
