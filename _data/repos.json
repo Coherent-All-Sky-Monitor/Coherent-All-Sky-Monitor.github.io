@@ -1,5 +1,18 @@
 [
   {
+    "name": "Coherent-All-Sky-Monitor.github.io",
+    "description": "CASM Website",
+    "html_url": "https://github.com/Coherent-All-Sky-Monitor/Coherent-All-Sky-Monitor.github.io",
+    "homepage": "https://casm-telescope.com",
+    "has_pages": true,
+    "pages_url": "https://Coherent-All-Sky-Monitor.github.io/Coherent-All-Sky-Monitor.github.io",
+    "updated_at": "2026-08-08T06:19:24Z",
+    "language": null,
+    "stars": 0,
+    "forks": 0,
+    "topics": []
+  },
+  {
     "name": "casm_io",
     "description": "A Unified Reader and Write for all data products involved in CASM",
     "html_url": "https://github.com/Coherent-All-Sky-Monitor/casm_io",
@@ -8,19 +21,6 @@
     "pages_url": null,
     "updated_at": "2026-08-07T20:12:44Z",
     "language": "Python",
-    "stars": 0,
-    "forks": 0,
-    "topics": []
-  },
-  {
-    "name": "Coherent-All-Sky-Monitor.github.io",
-    "description": "CASM Website",
-    "html_url": "https://github.com/Coherent-All-Sky-Monitor/Coherent-All-Sky-Monitor.github.io",
-    "homepage": "https://casm-telescope.com",
-    "has_pages": true,
-    "pages_url": "https://Coherent-All-Sky-Monitor.github.io/Coherent-All-Sky-Monitor.github.io",
-    "updated_at": "2026-08-07T06:30:16Z",
-    "language": null,
     "stars": 0,
     "forks": 0,
     "topics": []
