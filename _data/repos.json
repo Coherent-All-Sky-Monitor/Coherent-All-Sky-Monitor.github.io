@@ -1,12 +1,51 @@
 [
   {
+    "name": "casm_io",
+    "description": "A Unified Reader and Write for all data products involved in CASM",
+    "html_url": "https://github.com/Coherent-All-Sky-Monitor/casm_io",
+    "homepage": null,
+    "has_pages": false,
+    "pages_url": null,
+    "updated_at": "2026-08-20T10:49:11Z",
+    "language": "Python",
+    "stars": 0,
+    "forks": 0,
+    "topics": []
+  },
+  {
+    "name": "casm_vis_analysis",
+    "description": "Repo to Analyse Visibilities from CASM",
+    "html_url": "https://github.com/Coherent-All-Sky-Monitor/casm_vis_analysis",
+    "homepage": null,
+    "has_pages": false,
+    "pages_url": null,
+    "updated_at": "2026-08-20T10:47:45Z",
+    "language": "Jupyter Notebook",
+    "stars": 0,
+    "forks": 0,
+    "topics": []
+  },
+  {
+    "name": "bf_weights_generator",
+    "description": "No description available",
+    "html_url": "https://github.com/Coherent-All-Sky-Monitor/bf_weights_generator",
+    "homepage": null,
+    "has_pages": false,
+    "pages_url": null,
+    "updated_at": "2026-08-20T10:47:32Z",
+    "language": "Python",
+    "stars": 0,
+    "forks": 0,
+    "topics": []
+  },
+  {
     "name": "Coherent-All-Sky-Monitor.github.io",
     "description": "CASM Website",
     "html_url": "https://github.com/Coherent-All-Sky-Monitor/Coherent-All-Sky-Monitor.github.io",
     "homepage": "https://casm-telescope.com",
     "has_pages": true,
     "pages_url": "https://Coherent-All-Sky-Monitor.github.io/Coherent-All-Sky-Monitor.github.io",
-    "updated_at": "2026-08-19T06:13:26Z",
+    "updated_at": "2026-08-20T06:14:32Z",
     "language": null,
     "stars": 0,
     "forks": 0,
@@ -39,19 +78,6 @@
     "topics": []
   },
   {
-    "name": "casm_io",
-    "description": "A Unified Reader and Write for all data products involved in CASM",
-    "html_url": "https://github.com/Coherent-All-Sky-Monitor/casm_io",
-    "homepage": null,
-    "has_pages": false,
-    "pages_url": null,
-    "updated_at": "2026-08-07T20:12:44Z",
-    "language": "Python",
-    "stars": 0,
-    "forks": 0,
-    "topics": []
-  },
-  {
     "name": "commissioning",
     "description": "Commissioning CASM",
     "html_url": "https://github.com/Coherent-All-Sky-Monitor/commissioning",
@@ -73,19 +99,6 @@
     "pages_url": null,
     "updated_at": "2026-07-22T13:53:43Z",
     "language": "JavaScript",
-    "stars": 0,
-    "forks": 0,
-    "topics": []
-  },
-  {
-    "name": "casm_vis_analysis",
-    "description": "Repo to Analyse Visibilities from CASM",
-    "html_url": "https://github.com/Coherent-All-Sky-Monitor/casm_vis_analysis",
-    "homepage": null,
-    "has_pages": false,
-    "pages_url": null,
-    "updated_at": "2026-07-22T04:56:17Z",
-    "language": "Jupyter Notebook",
     "stars": 0,
     "forks": 0,
     "topics": []
@@ -127,19 +140,6 @@
     "language": "C",
     "stars": 1,
     "forks": 1,
-    "topics": []
-  },
-  {
-    "name": "bf_weights_generator",
-    "description": "No description available",
-    "html_url": "https://github.com/Coherent-All-Sky-Monitor/bf_weights_generator",
-    "homepage": null,
-    "has_pages": false,
-    "pages_url": null,
-    "updated_at": "2026-05-18T18:35:12Z",
-    "language": "Python",
-    "stars": 0,
-    "forks": 0,
     "topics": []
   },
   {
