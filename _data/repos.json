@@ -1,12 +1,25 @@
 [
   {
+    "name": "casm-software-docs",
+    "description": "No description available",
+    "html_url": "https://github.com/Coherent-All-Sky-Monitor/casm-software-docs",
+    "homepage": null,
+    "has_pages": false,
+    "pages_url": null,
+    "updated_at": "2026-09-13T20:32:28Z",
+    "language": null,
+    "stars": 0,
+    "forks": 0,
+    "topics": []
+  },
+  {
     "name": "Coherent-All-Sky-Monitor.github.io",
     "description": "CASM Website",
     "html_url": "https://github.com/Coherent-All-Sky-Monitor/Coherent-All-Sky-Monitor.github.io",
     "homepage": "https://casm-telescope.com",
     "has_pages": true,
     "pages_url": "https://Coherent-All-Sky-Monitor.github.io/Coherent-All-Sky-Monitor.github.io",
-    "updated_at": "2026-09-12T06:24:37Z",
+    "updated_at": "2026-09-13T06:29:31Z",
     "language": null,
     "stars": 0,
     "forks": 0,
